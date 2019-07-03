@@ -8,7 +8,6 @@
 
 namespace Mocean\Notification\Channels;
 
-
 use Illuminate\Notifications\Notification;
 use Mocean\Laravel\Manager as MoceanClient;
 
@@ -23,7 +22,7 @@ class SmsChannel
 
     public function send($notifiable, Notification $notification)
     {
-        if (!$to = $notifiable->routeNotificationFor('mocean-sms', $notification)) {
+        if (! $to = $notifiable->routeNotificationFor('mocean-sms', $notification)) {
             return;
         }
 
@@ -33,15 +32,15 @@ class SmsChannel
             $message = [
                 'mocean-from' => 'Mocean',
                 'mocean-to' => $to,
-                'mocean-text' => $message
+                'mocean-text' => $message,
             ];
         }
 
         $message = array_merge($message, [
-            'mocean-to' => $to
+            'mocean-to' => $to,
         ]);
 
-        if (!isset($message['mocean-from'])) {
+        if (! isset($message['mocean-from'])) {
             $message['mocean-from'] = 'Mocean';
         }
 

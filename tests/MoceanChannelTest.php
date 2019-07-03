@@ -8,12 +8,12 @@
 
 namespace Mocean\Notification\Tests;
 
+use Prophecy\Argument;
+use PHPUnit\Framework\TestCase;
 use Mocean\Notification\Channels\SmsChannel;
-use Mocean\Notification\Tests\Dummy\DummyCustomNotificationClass;
 use Mocean\Notification\Tests\Dummy\DummyNotifiable;
 use Mocean\Notification\Tests\Dummy\DummyNotificationClass;
-use PHPUnit\Framework\TestCase;
-use Prophecy\Argument;
+use Mocean\Notification\Tests\Dummy\DummyCustomNotificationClass;
 
 class MoceanChannelTest extends TestCase
 {
