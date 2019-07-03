@@ -2,6 +2,7 @@ Mocean Laravel Notification
 ===========================
 [![Latest Stable Version](https://img.shields.io/packagist/v/mocean/laravel-notification-channel.svg)](https://packagist.org/packages/mocean/laravel-notification-channel)
 [![Build Status](https://img.shields.io/travis/com/MoceanAPI/laravel-notification-channel.svg)](https://travis-ci.com/MoceanAPI/laravel-notification-channel)
+[![StyleCI](https://github.styleci.io/repos/194965639/shield?branch=master)](https://github.styleci.io/repos/194965639)
 [![License](https://img.shields.io/packagist/l/mocean/laravel-notification-channel.svg)](https://packagist.org/packages/mocean/laravel-notification-channel)
 [![Total Downloads](https://img.shields.io/packagist/dt/mocean/laravel-notification-channel.svg)](https://packagist.org/packages/mocean/laravel-notification-channel)
 
