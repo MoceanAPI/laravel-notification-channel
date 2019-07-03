@@ -15,7 +15,7 @@ class DummyNotifiable
 {
     use Notifiable;
 
-    public function routeNotificationForMoceanSms($notification)
+    public function routeNotificationForMoceanSms($notification = null)
     {
         return '60123456789';
     }
