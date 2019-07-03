@@ -8,7 +8,6 @@
 
 namespace Mocean\Notification\Tests\Dummy;
 
-
 use Illuminate\Notifications\Notification;
 
 class DummyNotificationClass extends Notification

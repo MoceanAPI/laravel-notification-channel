@@ -8,7 +8,6 @@
 
 namespace Mocean\Notification\Tests\Dummy;
 
-
 use Illuminate\Notifications\Notification;
 
 class DummyCustomNotificationClass extends Notification
@@ -17,7 +16,7 @@ class DummyCustomNotificationClass extends Notification
     {
         return [
             'mocean-text' => 'Hello World',
-            'mocean-dlr-url' => 'http://test.com'
+            'mocean-dlr-url' => 'http://test.com',
         ];
     }
 }

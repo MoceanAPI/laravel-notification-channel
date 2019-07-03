@@ -8,9 +8,9 @@
 
 namespace Mocean\Notification;
 
+use Illuminate\Support\ServiceProvider;
 use Illuminate\Notifications\ChannelManager;
 use Illuminate\Support\Facades\Notification;
-use Illuminate\Support\ServiceProvider;
 use Mocean\Notification\Channels\SmsChannel;
 
 class MoceanChannelServiceProvider extends ServiceProvider

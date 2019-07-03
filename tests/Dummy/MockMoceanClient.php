@@ -8,7 +8,6 @@
 
 namespace Mocean\Notification\Tests\Dummy;
 
-
 use Mocean\Laravel\Manager;
 
 class MockMoceanClient extends Manager
