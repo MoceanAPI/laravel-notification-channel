@@ -6,7 +6,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "illuminate/notifications": "~5",
+    "illuminate/notifications": "~5 || ~0",
     "mocean/laravel-mocean": "^2.0"
   },
   "require-dev": {
